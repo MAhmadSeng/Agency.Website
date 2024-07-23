@@ -36,10 +36,11 @@ footer {
   
   .f-one h2 {
     color: white;
-    font-size: 2.3rem;
+    @include font-setting(2.3rem, 48px); 
+   
     text-transform: uppercase;
     font-weight: $wait1;
-    line-height: 48px;
+
   }
   
   .f-four h2 {
@@ -52,9 +53,9 @@ footer {
   }
   .f-one p {
     color: white;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 32px;
+    @include font-setting(1rem, 32px); 
+    font-weight: $wait;
+   
     padding: 2rem 0rem;
     text-align: left;
   }
@@ -63,9 +64,8 @@ footer {
   .f-three .f-item,
   .f-four p {
     color: white;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.6;
+    @include font-setting(1rem, 1.6); 
+    font-weight: $wait;
   }
   
   li.f-item {
@@ -92,9 +92,8 @@ footer {
   
   .f-bottom p {
     color: white;
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 32px;
+    @include font-setting(1rem, 32px); 
+    font-weight: $wait;
   }
   .f-terms {
     display: flex;
@@ -103,8 +102,7 @@ footer {
   .f-terms h6,
   .f-terms h5 {
     color: white;
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 32px;
+    @include font-setting(1rem, 32px); 
+    font-weight: $wait;
   }
   

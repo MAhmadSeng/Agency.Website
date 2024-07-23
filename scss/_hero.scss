@@ -12,20 +12,22 @@
 
 .left-content h2 {
   margin: 1rem 0rem;
-  font-size: 1.2rem;
+  font-weight: $wait;
+  @include font-setting(1.2rem, 32px); 
   font-weight: $wait1;
   font-family: "work sans";
-  line-height: 32px;
+ 
   text-transform: uppercase;
   color: white;
   animation: fadeIn 2s ease-in-out;
 }
 
 .left-content h1 {
-  font-size: 4rem;
+  font-weight: $wait;
+  @include font-setting(4rem, 70px); 
   font-family: "work sans";
   font-weight: $wait1;
-  line-height: 70px;
+ 
   color: white;
   animation: fadeIn 2s ease-in-out;
 }
@@ -52,11 +54,10 @@ button.contact {
 }
 
 .buttons h3 {
-  font-size: 1.2rem;
+  font-weight: $wait;
+  @include font-setting(1.2rem, 32px); 
   color: white;
-  font-weight: 300;
   font-family: "work sans";
-  line-height: 32px;
   margin: 0rem 1rem;
 }
 

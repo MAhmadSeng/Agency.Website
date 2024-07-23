@@ -23,8 +23,8 @@
 
 .e-heading h2 {
   color: white;
-  font-size: 3.5rem;
-  line-height: 64px;
+  padding: 0.5rem 1rem;
+  @include font-setting(3.5rem, 64px); 
   font-family: "work sans";
   font-weight: $wait1;
   
@@ -102,41 +102,37 @@ button.e-view-all {
 }
 
 .e-content-info p {
-  font-size: 1rem;
-  font-weight: 300;
+  @include font-setting(1rem, 32px); 
   line-height: 32px;
   font-family: "work sans";
   color: #33333370;
 }
 
 .e-content-info h2 {
-  font-size: 1.5rem;
+  @include font-setting(1.5rem, 32px); 
   font-weight: $wait1;
-  line-height: 32px;
   font-family: "work sans";
   color: #333333;
 }
 
 .e-content-info h6 {
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 32px;
+  font-weight: $wait;
+  @include font-setting(1rem, 32px); 
   font-family: "work sans";
   color: #33333370;
 }
 
 .e-icon-info h2 {
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 32px;
+
+  font-weight: $wait;
+  @include font-setting(1rem, 32px); 
   font-family: "work sans";
   color: #333333;
 }
 
 .e-icon-info h5 {
-  font-size: 0.85rem;
-  font-weight: 300;
-  line-height: 24px;
+  font-weight: $wait;
+  @include font-setting(1rem, 32px); 
   font-family: "work sans";
   color: #33333370;
   text-align: left;
