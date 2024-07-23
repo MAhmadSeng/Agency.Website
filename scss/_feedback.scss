@@ -77,6 +77,11 @@ button.e-view-all {
   flex: 1 1 20%;
   @include column;
   text-align: center;
+  position: relative;
+}
+
+.e-boxes-3 {
+  position: relative;
 }
 
 .e-boxes-2 .e-icon,
@@ -137,6 +142,8 @@ button.e-view-all {
   text-align: left;
 }
 img.overlap {
-  position: relative;
-  right: -5rem;
+  position: absolute;
+  top: 20rem;
+  right: -1rem;
 }
+

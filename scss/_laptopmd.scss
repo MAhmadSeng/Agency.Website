@@ -1,0 +1,107 @@
+@media (max-width: $screen-md) {
+    header {
+      @include center-all;
+    }
+    .navbar {
+   @include center-all;
+      gap: 5rem;
+    }
+    .nav-item {
+      gap: 2rem;
+  }
+  
+  .hero-content {
+    padding: 7rem 5rem;
+  }
+  .transparent-text h1 {
+    // font-size: 16rem;
+  }
+    .left-content h1 {
+      font-size: 3rem;
+      font-family: "work sans";
+      font-weight: bold;
+      line-height: 55px;
+      text-transform: capitalize;
+      color: white;
+    }
+  
+    .third-left h3 {
+      color: #333333;
+      font-weight: bold;
+      font-size: 2.5rem;
+      line-height: 45px;
+    }
+  
+    .third-content {
+      padding: 0rem 2rem;
+    }
+    .fourth-section {
+      padding: 0rem;
+    }
+    .fourth-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .boxes {
+      flex-wrap: wrap;
+    }
+    .six-section {
+      padding: 0rem;
+    }
+  
+    .six-content {
+      padding: 0rem 2rem;
+    }
+    .seven-left {
+      padding: 1rem;
+    }
+  .seven-right{
+    padding: 1rem;
+    width: 80%;
+  }
+  img.overlap {
+    position: absolute;
+    top: 3rem;
+    right: -1rem;
+  }
+    .e-section {
+      padding: 4rem;
+    }
+  
+    .c-section {
+      padding: 2rem;
+    }
+    .cd,
+    .cd-2 {
+      padding: 4rem 4rem;
+    }
+    .cd-content button a {
+      font-size: 1rem;
+    }
+  
+    .card-content-2 button a {
+      font-size: 1rem;
+    }
+  
+    .contact-content {
+      padding: 4rem 2rem;
+    }
+  
+    .news-letter {
+      gap: 7rem;
+    }
+    .news-content h1 {
+      font-size: 2.5rem;
+    }
+    .footer {
+      padding-top: 8rem;
+    }
+    .footer-content {
+      padding: 0rem 2rem;
+    }
+    .f-bottom {
+      justify-content: space-between;
+      gap: 5rem;
+    }
+  }
+  

@@ -1,0 +1,245 @@
+@media (max-width: $screen-t) {
+    header {
+      padding: 1rem;
+    }
+    .nav-item {
+      gap: 1rem;
+    }
+    .navbar {
+      gap: 2rem;
+    }
+    .hero-content {
+      padding: 6rem 2rem;
+  }
+  
+    .left-one {
+      width: 100%;
+    }
+  
+    .left-content h1 {
+      font-size: 2rem;
+      line-height: 40px;
+    }
+    .buttons {
+      margin: 2rem 0rem;
+    }
+  
+    button.contact {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+    .transparent-text h1 {
+      // font-size: 12rem;
+  }
+  
+    .right-two h3 {
+      font-size: 2.5rem;
+      line-height: 45px;
+    }
+    .second-section {
+      padding: 4rem 2rem;
+    }
+    .second-content {
+      margin-top: -11rem;
+      // padding: 3rem;
+    }
+    .left-two img {
+      padding: 1rem;
+      height: 100%;
+      width: 100%;
+    }
+    .left-two {
+      padding: 0;
+    }
+  
+    .right-two h3 {
+      font-size: 2rem;
+      line-height: 38px;
+    }
+    .branding {
+      gap: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+    .branding img {
+      padding: 1rem;
+      height: 50px;
+    }
+    .info h2 {
+      margin-top: 0rem;
+      font-size: 1.2rem;
+      line-height: 25px;
+    }
+  
+    .info p {
+      line-height: 25px;
+      padding: 1rem 0rem;
+    }
+  
+    .third-left {
+      padding: 0;
+      /* width: auto; */
+    }
+  
+    .bars {
+      gap: 1rem;
+    }
+    .fourth-content {
+      gap: 0rem;
+      padding: 3rem;
+    }
+  
+    .fourth-section {
+      padding: 0rem;
+    }
+    .fourth-content h1 {
+      font-size: 1.5rem;
+    }
+    .heading {
+      margin: 0;
+    }
+    .heading h2 {
+      font-size: 2.5rem;
+    }
+  
+    .boxes {
+      margin: 1rem 0rem;
+    }
+  
+    .box-content-right1, .box-content-right2 {
+  display: none;
+  }
+    .box-content-info h2 {
+      font-size: 2rem;
+      line-height: 0;
+      padding: 2rem 0rem;
+    }
+  
+    button.view-all {
+      font-size: 1rem;
+     
+  }
+    button.read-more {
+      font-size: 1rem;
+      margin: 1rem 0rem;
+    }
+    .six-section {
+      padding: 0rem;
+    }
+    .six-content {
+      padding: 2rem;
+    }
+    .six-left {
+      padding: 0;
+    }
+    .six-left h3 {
+      font-size: 2.5rem;
+      line-height: 40px;
+    }
+  
+    button.explore {
+      font-size: 1rem;
+      margin: 1rem 0rem;
+    }
+  
+    .seven-content {
+      padding: 2rem;
+    }
+    .seven-left {
+      padding: 1rem;
+    }
+  .seven-right{
+    padding: 0rem;
+    width: 80%;
+  }
+    .seven-right h3 {
+      font-size: 2.5rem;
+      line-height: 40px;
+    }
+  
+    button.e-view-all {
+      font-size: 1rem;
+    }
+  
+    img.overlap {
+      position: relative;
+      right: -6rem;
+    }
+    .e-heading h2 {
+      font-size: 2.5rem;
+      line-height: 0;
+    }
+    .box-content-info p {
+      padding: 1rem 0rem;
+    }
+
+    img.overlap {
+      position: absolute;
+      top: 17rem;
+      right: -1rem;
+    }
+    .e-boxes-2 .e-icon,
+    .e-boxes-3 .e-icon {
+      padding: 1rem 0rem;
+    }
+  
+    .card-content h2 {
+      font-size: 2.5rem;
+      line-height: 0;
+    }
+  
+    .cd,
+    .cd-2 {
+      padding: 2rem 3rem;
+    }
+    .cd-content button a {
+      font-size: 0.6rem;
+    }
+    .card-content-2 button a {
+      font-size: 0.6rem;
+    }
+  
+    .contact-content {
+      padding: 6rem 1rem;
+    }
+  
+    .contact-left h3 {
+      font-size: 2.5rem;
+      padding: 0;
+      line-height: 40px;
+    }
+  
+    .contact-left {
+      padding: 2rem;
+    }
+  .contact-third-right img{
+    height: 100%;
+    width: 100%;
+  }
+  
+    button.submit {
+      width: 50%;
+      font-size: 1rem;
+    }
+    .news-letter {
+      gap: 3rem;
+      padding: 1rem;
+    }
+  
+    .news-content h1 {
+      font-size: 2rem;
+      line-height: 30px;
+    }
+  
+    button.subscribe {
+      font-size: 1rem;
+    }
+  
+    .footer-content {
+      padding: 2rem;
+      gap: 4rem;
+    }
+  }
+
+
+  
