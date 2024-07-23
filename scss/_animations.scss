@@ -1,34 +1,11 @@
 
-// img {
-//     transition: transform 0.3s ease-in-out;
-//   }
+img {
+    transition: transform 0.6s ease-in-out;
+  }
   
-//   img:hover {
-//     transform: scale(1.1); /* Slight zoom effect */
-//   }
-  
-  // /* Button hover color change */
-  // button {
-  //   transition: background-color 0.3s ease, transform 0.3s ease;
-  // }
-  
-  // button:hover {
-  //   transform: translateY(-5px);
-  // }
-  
-//   /* Box hover transform */
-//   .box {
-//     transition: transform 0.3s ease, box-shadow 0.3s ease;
-//   }
-  
-//   .box:hover {
-//     transform: translateY(-5px); /* Slightly lift the box */
-//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
-//   }
-  
-  
-
-
+  img:hover {
+    transform: scale(1.1); 
+  }
 
   @keyframes fadeIn {
     from {
