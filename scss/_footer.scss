@@ -1,0 +1,110 @@
+
+footer {
+    background-color: $bg-main1;
+  }
+  
+  .footer-content {
+    @include space-between-start;
+    gap: 8rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12rem 0rem 4rem 0rem;
+  }
+  
+  .footer-content > div {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .menu-clients {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+  }
+  
+  .menu-clients > div {
+    text-align: left;
+  }
+  
+  .f-two h2 {
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: $wait1;
+    margin-bottom: 1rem;
+  }
+  
+  .f-one h2 {
+    color: white;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-weight: $wait1;
+    line-height: 48px;
+  }
+  
+  .f-four h2 {
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: $wait1;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  .f-one p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 2rem 0rem;
+    text-align: left;
+  }
+  
+  .f-two .f-item,
+  .f-three .f-item,
+  .f-four p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+  
+  li.f-item {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  .f-social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .f-social-icons img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .f-bottom {
+    @include center-all;
+    gap: 36rem;
+    padding: 2rem;
+    border-top: 1px solid #ffffff29;
+  }
+  
+  .f-bottom p {
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 32px;
+  }
+  .f-terms {
+    display: flex;
+    gap: 1rem;
+  }
+  .f-terms h6,
+  .f-terms h5 {
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 32px;
+  }
+  

@@ -1,0 +1,79 @@
+.third-section {
+    width: 100%;
+    background-color: #f6f1ed;
+    @include center-all;
+  }
+  
+  .third-content {
+    @include center-all;
+    padding: 4rem;
+  }
+  
+  .third-left {
+    padding: 4rem;
+    width: 50%;
+  }
+  
+  .third-right img {
+    height: 100%;
+    width: 100%;
+  }
+  .third-left h6 {
+    padding: 2rem 0rem;
+    @include heading-top;
+  }
+  
+  .third-left h3 {
+    color: #333333;
+    font-weight: $wait1;
+    font-size: 3.5rem;
+    line-height: 56px;
+  }
+  
+  .third-left p {
+    padding: 2rem 0rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 32px;
+    color: #33333370;
+  }
+  
+  .bars {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    margin: 6rem 0rem;
+  }
+  span {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: $wait1;
+    line-height: 32px;
+    text-align: center;
+  }
+  
+  span.one {
+    background-color: #d3d1e2;
+    border-radius: 6px;
+    padding: 3rem 1rem;
+  }
+  
+  span.two {
+    background-color: #6e62d7;
+    border-radius: 6px;
+    padding: 6rem 1rem 3rem 1rem;
+    margin-right: 1rem;
+  }
+  
+  span.three {
+    background-color: #eaddd1;
+    border-radius: 6px;
+    padding: 2rem 1rem 3rem 1rem;
+  }
+  
+  span.fourth {
+    background-color: #f39b45;
+    border-radius: 6px;
+    padding: 4rem 1rem 3rem 1rem;
+  }

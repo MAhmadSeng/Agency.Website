@@ -1,0 +1,54 @@
+
+.seven-right h6 {
+  @include heading-top;
+  }
+  .seven-section {
+    width: 100%;
+    background-color: #f6f1ed;
+    @include center-all;
+  }
+  
+  .seven-content {
+    max-width: 1200px;
+    @include center-all;
+    padding: 4rem 0rem;
+  }
+    .seven-left {
+      padding: 2rem;
+      width: 85%;
+  }
+  
+  .seven-left img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .six-right-mob{
+    display: none;
+  }
+  .seven-right h3 {
+    padding: 1rem 0rem;
+    @include heading-h2;
+  }
+  
+  .seven-right h2 {
+    color: #333333;
+    font-size: 1rem;
+    line-height: 32px;
+    font-weight: $wait1;
+    font-family: "Work Sans";
+    padding: 0.5rem 0rem;
+  }
+  
+  .seven-right p {
+    color: #333333;
+    line-height: 32px;
+    font-weight: $wait;
+    font-family: "Work Sans";
+    font-size: 1rem;
+    padding: 1rem 0rem;
+  }
+  
+  span img {
+    margin-left: 0.5rem;
+  }

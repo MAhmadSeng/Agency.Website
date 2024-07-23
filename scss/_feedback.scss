@@ -1,0 +1,142 @@
+.e-section {
+    padding: 4rem 0rem;
+    background-color: $bg-main1;
+  }
+  
+  .e-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .e-headline {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  
+  .e-heading {
+  @include space-between;
+  }
+  
+  .e-headline h3 {
+    @include heading-white;
+  }
+  
+  .e-heading h2 {
+    color: white;
+    font-size: 3.5rem;
+    line-height: 64px;
+    font-family: "work sans";
+    font-weight: $wait1;
+    
+  }
+  
+  button.e-view-all {
+    font-size: 1.2rem;
+    font-weight: $wait1;
+    color: white;
+    border-radius: 50px;
+    background-color: #7e73dd;
+    border: 1px solid #7e73dd;
+    padding: 0.4rem 2.5rem;
+   
+  @include button-base;
+  @include button-hover-effect;
+  }
+
+
+  .e-boxes-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2rem;
+  }
+  
+  .e-boxes-1,
+  .e-boxes-2,
+  .e-boxes-3 {
+    background-color: white;
+    padding: 1.2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  .e-boxes-1 {
+    flex: 1 1 45%;
+    display: flex;
+    align-items: start;
+  }
+  
+  .e-content-info {
+    text-align: left;
+    padding: 0rem 2rem;
+  }
+  
+  .e-boxes-2,
+  .e-boxes-3 {
+    flex: 1 1 20%;
+    @include column;
+    text-align: center;
+  }
+  
+  .e-boxes-2 .e-icon,
+  .e-boxes-3 .e-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .e-icon img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .e-content-info img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .e-content-info p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 32px;
+    font-family: "work sans";
+    color: #33333370;
+  }
+  
+  .e-content-info h2 {
+    font-size: 1.5rem;
+    font-weight: $wait1;
+    line-height: 32px;
+    font-family: "work sans";
+    color: #333333;
+  }
+  
+  .e-content-info h6 {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 32px;
+    font-family: "work sans";
+    color: #33333370;
+  }
+  
+  .e-icon-info h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 32px;
+    font-family: "work sans";
+    color: #333333;
+  }
+  
+  .e-icon-info h5 {
+    font-size: 0.85rem;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: "work sans";
+    color: #33333370;
+    text-align: left;
+  }
+  img.overlap {
+    position: relative;
+    right: -5rem;
+}

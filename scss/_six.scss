@@ -1,0 +1,72 @@
+.six-section {
+  background-color: white;
+  @include center-all;
+  padding: 4rem;
+}
+
+.six-content {
+  @include center-all;
+  padding: 4rem;
+}
+
+.six-right img {
+  height: 100%;
+  width: 100%;
+}
+.six-left {
+  padding: 4rem;
+}
+
+.six-left h6 {
+  color: #ef634d;
+  @include heading-top;
+  padding-bottom: 1rem;
+}
+
+.six-left h3 {
+  padding: 1rem 0rem;
+  @include heading-h2;
+}
+
+.marketing {
+  @include start;
+  gap: 1.5rem;
+  padding: 1rem 0rem;
+}
+
+.marketing img {
+  background-color: #f6f1ed;
+  border-radius: 50px;
+  padding: 1rem;
+}
+
+.market h2 {
+  font-size: 1.5rem;
+  font-weight: $wait1;
+  line-height: 32px;
+  font-family: "work sans";
+  color: #333333;
+}
+
+.market p {
+  font-size: 1rem;
+  font-weight: $wait;
+  line-height: 32px;
+  font-family: "work sans";
+  color: #33333370;
+}
+
+button.explore {
+  font-size: 1.2rem;
+  font-weight: $wait1;
+  color: white;
+  font-family: "work sans";
+  border-radius: 50px;
+  background-color: #f49e44;
+  border: 1px solid #f49e44;
+  padding: 0.5rem 2.5rem;
+  margin: 2rem 0rem;
+
+  @include button-base;
+  @include button-hover-effect;
+}

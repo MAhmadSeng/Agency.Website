@@ -1,0 +1,81 @@
+header {
+  @include space-evenly;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: $bg-main1
+  }
+  
+  .logo {
+    font-family: "work sans";
+    font-size: 2.5rem;
+    line-height: 40px;
+    font-weight: $wait1;
+    color: white;
+    text-transform: uppercase;
+    animation: fadeIn 2s ease-in-out;
+  }
+  label.toggle {
+    display: none;
+  }
+  .navbar {
+    @include center-all;
+    gap: 12rem;
+  }
+  
+  .nav-item {
+    @include center-all;
+    gap: 4rem;
+  }
+  
+  .links {
+    font-size: 1rem;
+    color: white;
+    line-height: 32px;
+    font-weight: normal;
+    font-family: "work sans";
+    animation: fadeIn 1s ease-in-out;
+
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+  }
+
+
+ .links::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:$bg-main2;
+    border: 1px solid $bg-main2;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    transform: translateX(-110%);
+    transition: .4s all ease;
+  }
+  .links:hover::before{
+    transform: translateX(0%);
+  }
+
+
+  img.facebook,
+  .twitter,
+  .instagram {
+    animation: fadeIn 1s ease-in-out;
+  
+    background-color: #7d72dd;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    height: 48px;
+    width: 48px;
+    padding: 1rem;
+  }
+
+
+  
