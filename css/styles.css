@@ -256,7 +256,7 @@ button.contact:hover::after {
 }
 
 .second-content {
-  margin-top: -20rem;
+  margin-top: -15rem;
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -2036,7 +2036,7 @@ li.f-item {
     padding: 4rem 2rem;
   }
   .second-content {
-    margin-top: -11rem;
+    margin-top: -9rem;
   }
   .left-two img {
     padding: 1rem;
@@ -2884,7 +2884,7 @@ li.f-item {
   .second-content {
     padding: 2rem 1rem;
     flex-direction: column;
-    margin-top: -10rem;
+    margin-top: -8rem;
   }
   .left-two img {
     display: none;
