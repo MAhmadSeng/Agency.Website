@@ -1,5 +1,5 @@
 img {
-  transition: transform 0.6s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 
 img:hover {
@@ -81,6 +81,7 @@ label.toggle {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .links::before {
@@ -349,8 +350,8 @@ button.contact:hover::before {
 
 .third-left p {
   padding: 2rem 0rem;
-  font-size: 1rem;
   font-weight: 300;
+  font-size: 1rem;
   line-height: 32px;
   color: rgba(51, 51, 51, 0.4392156863);
 }
@@ -428,6 +429,36 @@ span.fourth {
   font-weight: bold;
   font-size: 3.5rem;
   line-height: 56px;
+}
+
+button.contact {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "work sans";
+  color: black;
+  border-radius: 50px;
+  background-color: #f49e44;
+  border: 1px solid #f49e44;
+  padding: 0.5rem 2rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+button.contact::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #EF634D;
+  border: 1px solid #EF634D;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateX(-110%);
+  transition: 0.4s all ease;
+}
+button.contact:hover::before {
+  transform: translateX(0%);
 }
 
 .fifth-section {
@@ -1418,7 +1449,7 @@ li.f-item {
   font-weight: 300;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
   header {
     display: flex;
     justify-content: center;
@@ -1435,6 +1466,9 @@ li.f-item {
   }
   .hero-content {
     padding: 7rem 5rem;
+  }
+  .transparent-text h1 {
+    margin-top: -18rem;
   }
   .second-content {
     margin-top: -14rem;
@@ -1463,7 +1497,7 @@ li.f-item {
     font-size: 2.5rem;
   }
   .boxes {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
   .six-section {
     padding: 0rem;
@@ -1479,8 +1513,9 @@ li.f-item {
     width: 80%;
   }
   img.overlap {
-    position: relative;
-    right: -4rem;
+    position: absolute;
+    top: 23rem;
+    right: -1rem;
   }
   .e-section {
     padding: 4rem;
@@ -1616,6 +1651,219 @@ li.f-item {
     gap: 5rem;
   }
 }
+@media (max-width: 900px) {
+  header {
+    padding: 1rem;
+  }
+  .nav-item {
+    gap: 1rem;
+  }
+  .navbar {
+    gap: 2rem;
+  }
+  .hero-content {
+    padding: 6rem 2rem;
+  }
+  .left-one {
+    width: 100%;
+  }
+  .left-content h1 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .buttons {
+    margin: 2rem 0rem;
+  }
+  button.contact {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .right-two h3 {
+    font-size: 2.5rem;
+    line-height: 45px;
+  }
+  .second-section {
+    padding: 4rem 2rem;
+  }
+  .second-content {
+    margin-top: -11rem;
+  }
+  .left-two img {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+  }
+  .left-two {
+    padding: 0;
+  }
+  .right-two h3 {
+    font-size: 2rem;
+    line-height: 38px;
+  }
+  .branding {
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+  .branding img {
+    padding: 1rem;
+    height: 50px;
+  }
+  .info h2 {
+    margin-top: 0rem;
+    font-size: 1.2rem;
+    line-height: 25px;
+  }
+  .info p {
+    line-height: 25px;
+    padding: 1rem 0rem;
+  }
+  .third-left {
+    padding: 0;
+    /* width: auto; */
+  }
+  .bars {
+    gap: 1rem;
+  }
+  .fourth-content {
+    gap: 0rem;
+    padding: 3rem;
+  }
+  .fourth-section {
+    padding: 0rem;
+  }
+  .fourth-content h1 {
+    font-size: 1.5rem;
+  }
+  .heading {
+    margin: 0;
+  }
+  .heading h2 {
+    font-size: 2.5rem;
+  }
+  .boxes {
+    margin: 1rem 0rem;
+  }
+  .box-content-right1, .box-content-right2 {
+    display: none;
+  }
+  .box-content-info h2 {
+    font-size: 2rem;
+    line-height: 0;
+    padding: 2rem 0rem;
+  }
+  button.view-all {
+    font-size: 1rem;
+  }
+  button.read-more {
+    font-size: 1rem;
+    margin: 1rem 0rem;
+  }
+  .six-section {
+    padding: 0rem;
+  }
+  .six-content {
+    padding: 2rem;
+  }
+  .six-left {
+    padding: 0;
+  }
+  .six-left h3 {
+    font-size: 2.5rem;
+    line-height: 40px;
+  }
+  button.explore {
+    font-size: 1rem;
+    margin: 1rem 0rem;
+  }
+  .seven-content {
+    padding: 2rem;
+  }
+  .seven-left {
+    padding: 1rem;
+  }
+  .seven-right {
+    padding: 0rem;
+    width: 80%;
+  }
+  .seven-right h3 {
+    font-size: 2.5rem;
+    line-height: 40px;
+  }
+  button.e-view-all {
+    font-size: 1rem;
+  }
+  .e-boxes-1 {
+    flex: 1 1 65%;
+    display: flex;
+    align-items: start;
+  }
+  .e-heading h2 {
+    font-size: 2.5rem;
+    line-height: 0;
+  }
+  .box-content-info p {
+    padding: 1rem 0rem;
+  }
+  img.overlap {
+    position: absolute;
+    top: 17rem;
+    right: -1rem;
+  }
+  .e-boxes-2 .e-icon,
+  .e-boxes-3 .e-icon {
+    padding: 1rem 0rem;
+  }
+  .card-content h2 {
+    font-size: 2.5rem;
+    line-height: 0;
+  }
+  .cd,
+  .cd-2 {
+    padding: 2rem 3rem;
+  }
+  .cd-content button a {
+    font-size: 0.6rem;
+  }
+  .card-content-2 button a {
+    font-size: 0.6rem;
+  }
+  .contact-content {
+    padding: 6rem 1rem;
+  }
+  .contact-left h3 {
+    font-size: 2.5rem;
+    padding: 0;
+    line-height: 40px;
+  }
+  .contact-left {
+    padding: 2rem;
+  }
+  .contact-third-right img {
+    height: 100%;
+    width: 100%;
+  }
+  button.submit {
+    width: 50%;
+    font-size: 1rem;
+  }
+  .news-letter {
+    gap: 3rem;
+    padding: 1rem;
+  }
+  .news-content h1 {
+    font-size: 2rem;
+    line-height: 30px;
+  }
+  button.subscribe {
+    font-size: 1rem;
+  }
+  .footer-content {
+    padding: 2rem;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 768px) {
   header {
     padding: 1rem;
@@ -1642,6 +1890,9 @@ li.f-item {
   button.contact {
     font-size: 1rem;
     padding: 0.5rem 1rem;
+  }
+  .transparent-text h1 {
+    margin-top: -11rem;
   }
   .right-two h3 {
     font-size: 2.5rem;
@@ -1825,16 +2076,17 @@ li.f-item {
   .footer-content {
     padding: 2rem;
     gap: 4rem;
+    flex-wrap: wrap;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   header {
     justify-content: space-around;
     padding: 1rem;
     margin: 0;
   }
   .navbar {
-    gap: 6rem;
+    gap: 22rem;
   }
   ul.nav-item,
   .social-icons {
@@ -1931,7 +2183,8 @@ li.f-item {
   }
   .bars {
     margin: 6rem 0rem;
-    gap: 0.4rem;
+    gap: 4.4rem;
+    justify-content: center;
   }
   .third-left {
     padding: 0;
@@ -2033,7 +2286,6 @@ li.f-item {
   }
   .e-heading {
     gap: 2rem;
-    display: block;
   }
   .e-heading h2 {
     font-size: 2rem;
@@ -2045,14 +2297,11 @@ li.f-item {
     margin: 2rem 0rem;
   }
   .e-boxes-1 {
-    flex-direction: column;
+    flex-direction: row;
   }
   .e-boxes-2,
   .e-boxes-3 {
     display: none;
-  }
-  .e-content-info {
-    padding: 5rem 0rem;
   }
   .e-content-info p {
     padding: 2rem 2rem 2rem 0rem;
@@ -2102,14 +2351,14 @@ li.f-item {
   }
   .news-letter {
     flex-direction: column;
-    gap: 0rem;
-    padding: 3rem 1rem 2rem 1rem;
+    gap: 4rem;
   }
   .news-content h1 {
     font-size: 2.5rem;
   }
   .news-input {
     flex-direction: column;
+    align-items: flex-start;
   }
   .footer-content {
     padding: 0rem 2rem;

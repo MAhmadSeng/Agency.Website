@@ -15,8 +15,9 @@
     padding: 7rem 5rem;
   }
   .transparent-text h1 {
-    // font-size: 18rem;
-  }
+
+    margin-top: -18rem;
+}
   .second-content {
     margin-top: -14rem;
   }
@@ -47,7 +48,7 @@
     }
   
     .boxes {
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
     }
     .six-section {
       padding: 0rem;
@@ -64,9 +65,10 @@
     width: 80%;
   }
   img.overlap {
-    position: relative;
-    right: -4rem;
-  }
+    position: absolute;
+    top: 23rem;
+    right: -1rem;
+}
     .e-section {
       padding: 4rem;
     }

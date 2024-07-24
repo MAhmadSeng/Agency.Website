@@ -26,15 +26,14 @@
   .third-left h3 {
     color: #333333;
     font-weight: $wait1;
-    font-size: 3.5rem;
-    line-height: 56px;
+
+    @include font-setting(3.5rem, 56px); 
   }
   
   .third-left p {
     padding: 2rem 0rem;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 32px;
+    font-weight: $wait;
+  @include font-setting(1rem, 32px); 
     color: #33333370;
   }
   

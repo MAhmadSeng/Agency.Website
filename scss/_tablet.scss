@@ -29,7 +29,7 @@
       padding: 0.5rem 1rem;
     }
     .transparent-text h1 {
-      // font-size: 12rem;
+      margin-top: -11rem;
   }
   
     .right-two h3 {
@@ -238,6 +238,7 @@
     .footer-content {
       padding: 2rem;
       gap: 4rem;
+      flex-wrap: wrap;
     }
   }
 

@@ -25,3 +25,15 @@
    
     @include font-setting(3.5rem, 56px); 
   }
+    button.contact {
+      font-size: 1.2rem;
+      font-weight: $wait1;
+      font-family: "work sans";
+      color: black;
+      border-radius: 50px;
+      background-color: #f49e44;
+      border: 1px solid #f49e44;
+      padding: 0.5rem 2rem;
+      @include button-base;
+      @include button-hover-effect;
+    }
