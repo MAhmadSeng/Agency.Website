@@ -64,7 +64,6 @@ label.toggle {
 }
 
 .links {
-  color: white;
   font-size: 1rem;
   line-height: 32px;
   font-weight: normal;
@@ -73,6 +72,7 @@ label.toggle {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  color: white;
   border-radius: 4px;
 }
 
@@ -187,19 +187,19 @@ button.contact:hover::before {
   font-size: 1.2rem;
   line-height: 32px;
   color: white;
+  border-radius: 6px;
   font-family: "work sans";
   text-transform: uppercase;
   padding: 0.3rem;
-  border-radius: 6px;
   transition: all 0.3s ease 0s;
   margin: 0rem 1rem;
 }
 
 .buttons h3:hover {
   background-color: #ef634D;
-  color: #ffffff;
-  font-size: 1rem;
+  color: white;
   border-radius: 50px;
+  font-size: 1rem;
   transition: all 0.3s ease 0s;
 }
 
@@ -1218,9 +1218,9 @@ img.overlap {
 }
 
 .contact-left ::placeholder {
-  font-size: 1rem;
   color: #333333;
   font-weight: 300;
+  font-size: 1rem;
   line-height: 32px;
 }
 
@@ -1235,8 +1235,8 @@ button.submit {
   width: 32%;
   font-size: 1.2rem;
   font-weight: bold;
-  color: white;
   font-family: "work sans";
+  color: white;
   border-radius: 50px;
   background-color: #f49e44;
   border: 1px solid #f49e44;
@@ -1282,6 +1282,7 @@ button.submit:hover::before {
 
 .news-content h1 {
   font-size: 3.5rem;
+  line-height: 64px;
   color: white;
   line-height: 64px;
   font-weight: bold;
@@ -1313,8 +1314,8 @@ button.submit:hover::before {
 button.subscribe {
   font-size: 1.2rem;
   font-weight: bold;
-  color: white;
   font-family: "work sans";
+  color: white;
   border-radius: 50px;
   background-color: #f17360;
   border: 1px solid #f17360;

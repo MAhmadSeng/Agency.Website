@@ -54,6 +54,7 @@ align-items: center;
 }
 
 
+
 @mixin style-p{
     font-size: 1rem;
     font-weight: 300;
@@ -116,8 +117,8 @@ align-items: center;
 
 
 
-@mixin border($border-radius, $color) {
-    border: 1px solid $color;
+@mixin color-border($color,$border-radius)  {
+    color: $color;
     border-radius: $border-radius;
   }
   

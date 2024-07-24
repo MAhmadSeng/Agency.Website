@@ -33,8 +33,7 @@
 button.e-view-all {
   font-size: 1.2rem;
   font-weight: $wait1;
-  color: white;
-  border-radius: 50px;
+@include color-border(white, 50px);
   background-color: #7e73dd;
   border: 1px solid #7e73dd;
   padding: 0.4rem 2.5rem;

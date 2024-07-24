@@ -34,7 +34,7 @@ header {
   
   .links {
 
-    color: white;
+
     @include font-setting(1rem, 32px);
     font-weight: normal;
     font-family: "work sans";
@@ -44,7 +44,7 @@ header {
     z-index: 1;
     overflow: hidden;
 
-    border-radius: 4px;
+    @include color-border(white, 4px);
   }
 
 
