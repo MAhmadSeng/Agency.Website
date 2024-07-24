@@ -228,6 +228,11 @@ button.contact:hover::before {
   margin-top: -9rem;
 }
 
+@media (min-width: 2560px) {
+  .transparent-text h1 {
+    font-size: 14vw;
+  }
+}
 .second-section {
   padding: 6rem;
   width: 100%;
