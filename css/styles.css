@@ -77,21 +77,19 @@ label.toggle {
 }
 
 .links::before {
+  background: #EF634D;
   content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #EF634D;
-  border: 1px solid #EF634D;
-  top: 0;
-  left: 0;
+  inset: 0;
   position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
   z-index: -1;
-  transform: translateX(-110%);
-  transition: 0.4s all ease;
 }
 
 .links:hover::before {
-  transform: translateX(0%);
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 img.facebook,
@@ -179,7 +177,23 @@ button.contact::before {
   transition: 0.4s all ease;
 }
 button.contact:hover::before {
-  transform: translateX(0%);
+  transform: translateX(-50%);
+}
+button.contact::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #EF634D;
+  border: 1px solid #EF634D;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateX(110%);
+  transition: 0.4s all ease;
+}
+button.contact:hover::after {
+  transform: translateX(50%);
 }
 
 .buttons h3 {
@@ -189,7 +203,6 @@ button.contact:hover::before {
   color: white;
   border-radius: 6px;
   font-family: "work sans";
-  text-transform: uppercase;
   padding: 0.3rem;
   transition: all 0.3s ease 0s;
   margin: 0rem 1rem;
@@ -468,7 +481,23 @@ button.contact::before {
   transition: 0.4s all ease;
 }
 button.contact:hover::before {
-  transform: translateX(0%);
+  transform: translateX(-50%);
+}
+button.contact::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #EF634D;
+  border: 1px solid #EF634D;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateX(110%);
+  transition: 0.4s all ease;
+}
+button.contact:hover::after {
+  transform: translateX(50%);
 }
 
 .fifth-section {
@@ -534,7 +563,23 @@ button.view-all::before {
   transition: 0.4s all ease;
 }
 button.view-all:hover::before {
-  transform: translateX(0%);
+  transform: translateX(-50%);
+}
+button.view-all::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #EF634D;
+  border: 1px solid #EF634D;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateX(110%);
+  transition: 0.4s all ease;
+}
+button.view-all:hover::after {
+  transform: translateX(50%);
 }
 
 .boxes {
@@ -612,7 +657,23 @@ button.read-more::before {
   transition: 0.4s all ease;
 }
 button.read-more:hover::before {
-  transform: translateX(0%);
+  transform: translateX(-50%);
+}
+button.read-more::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #EF634D;
+  border: 1px solid #EF634D;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateX(110%);
+  transition: 0.4s all ease;
+}
+button.read-more:hover::after {
+  transform: translateX(50%);
 }
 
 .box-content-right1 {
@@ -737,7 +798,23 @@ button.explore::before {
   transition: 0.4s all ease;
 }
 button.explore:hover::before {
-  transform: translateX(0%);
+  transform: translateX(-50%);
+}
+button.explore::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #EF634D;
+  border: 1px solid #EF634D;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateX(110%);
+  transition: 0.4s all ease;
+}
+button.explore:hover::after {
+  transform: translateX(50%);
 }
 
 .seven-right h6 {
@@ -1063,7 +1140,23 @@ button.e-view-all::before {
   transition: 0.4s all ease;
 }
 button.e-view-all:hover::before {
-  transform: translateX(0%);
+  transform: translateX(-50%);
+}
+button.e-view-all::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #EF634D;
+  border: 1px solid #EF634D;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateX(110%);
+  transition: 0.4s all ease;
+}
+button.e-view-all:hover::after {
+  transform: translateX(50%);
 }
 
 .e-boxes-all {
@@ -1260,7 +1353,23 @@ button.submit::before {
   transition: 0.4s all ease;
 }
 button.submit:hover::before {
-  transform: translateX(0%);
+  transform: translateX(-50%);
+}
+button.submit::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #EF634D;
+  border: 1px solid #EF634D;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateX(110%);
+  transition: 0.4s all ease;
+}
+button.submit:hover::after {
+  transform: translateX(50%);
 }
 
 .news-letter {
@@ -1339,7 +1448,23 @@ button.subscribe::before {
   transition: 0.4s all ease;
 }
 button.subscribe:hover::before {
-  transform: translateX(0%);
+  transform: translateX(-50%);
+}
+button.subscribe::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #EF634D;
+  border: 1px solid #EF634D;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateX(110%);
+  transition: 0.4s all ease;
+}
+button.subscribe:hover::after {
+  transform: translateX(50%);
 }
 
 footer {
@@ -3315,6 +3440,7 @@ body {
   width: 100%;
   height: 100vh;
   background-color: #f6f1ed;
+  overflow-x: hidden;
 }
 
 .main-container {
