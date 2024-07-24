@@ -44,17 +44,15 @@
 }
 
 .market h2 {
-  font-size: 1.5rem;
   font-weight: $wait1;
-  line-height: 32px;
+  @include font-setting(1.5rem, 32px); 
   font-family: "work sans";
   color: #333333;
 }
 
 .market p {
-  font-size: 1rem;
   font-weight: $wait;
-  line-height: 32px;
+  @include font-setting(1rem, 32px); 
   font-family: "work sans";
   color: #33333370;
 }

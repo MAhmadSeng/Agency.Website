@@ -42,17 +42,16 @@
   
   .card-title h2 {
     color: #333333;
-    font-size: 1.2rem;
-    line-height: 32px;
+    @include font-setting(1.2rem, 32px); 
     font-weight: $wait1;
     font-family: "Work Sans";
     text-transform: uppercase;
   }
   
   .card-title p {
-    font-size: 3.5rem;
+   
     color: #333333;
-    line-height: 64px;
+    @include font-setting(3.5rem, 64px); 
     font-weight: $wait1;
     font-family: "Work Sans";
     padding: 1rem 0rem;
@@ -60,10 +59,10 @@
   
   .cd-content ul li {
     color: #333333;
-    line-height: 32px;
-    font-weight: 300;
+ 
+    font-weight: $wait;
     font-family: "Work Sans";
-    font-size: 1rem;
+    @include font-setting(1rem, 32px); 
   }
   
   .cd-content ul li i {
@@ -112,27 +111,23 @@
   
   .card-title-2 h2 {
     color: #333333;
-    font-size: 1.2rem;
-    line-height: 32px;
+  @include font-setting(1.2rem, 32px); 
     font-weight: $wait1;
     font-family: "Work Sans";
     text-transform: uppercase;
   }
   .cd-2 h4 {
     color: #f49e44;
-    line-height: 32px;
     font-weight: $wait1;
     font-family: "Work Sans";
-    font-size: 1.2rem;
+    @include font-setting(1.2rem, 32px); 
     text-align: right;
-    // margin-right: -70px;
-    // margin-top: -35px;
   }
   
   .card-title-2 p {
-    font-size: 3.5rem;
+    @include font-setting(3.5rem, 64px); 
     color: #333333;
-    line-height: 64px;
+
     font-weight: $wait1;
     font-family: "Work Sans";
     padding: 1rem 0rem;
@@ -140,10 +135,10 @@
   
   .card-content-2 ul li {
     color: #333333;
-    line-height: 32px;
-    font-weight: 300;
+  
+    font-weight: $wait;
     font-family: "Work Sans";
-    font-size: 1rem;
+    @include font-setting(1rem, 32px); 
   }
   
   .card-content-2 ul li i {

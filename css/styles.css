@@ -14,22 +14,14 @@ img:hover {
     opacity: 1;
   }
 }
-.fade-in {
-  animation: fadeIn 1s ease-in-out;
-}
-
 @keyframes slideIn {
   from {
-    transform: translateX(-100%);
+    transform: translateX(10%);
   }
   to {
     transform: translateX(0);
   }
 }
-.slide-in {
-  animation: slideIn 0.5s ease-in-out;
-}
-
 header {
   display: flex;
   justify-content: space-evenly;
@@ -50,7 +42,7 @@ header {
   font-weight: bold;
   color: white;
   text-transform: uppercase;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 3s ease-in-out;
 }
 
 label.toggle {
@@ -72,12 +64,12 @@ label.toggle {
 }
 
 .links {
-  font-size: 1rem;
   color: white;
+  font-size: 1rem;
   line-height: 32px;
   font-weight: normal;
   font-family: "work sans";
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 3s ease-in-out;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -105,7 +97,7 @@ label.toggle {
 img.facebook,
 .twitter,
 .instagram {
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 3s ease-in-out;
   background-color: #7d72dd;
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 50px;
@@ -139,7 +131,7 @@ img.facebook,
   font-family: "work sans";
   text-transform: uppercase;
   color: white;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 4s ease-in-out;
 }
 
 .left-content h1 {
@@ -149,7 +141,7 @@ img.facebook,
   font-family: "work sans";
   font-weight: bold;
   color: white;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 4s ease-in-out;
 }
 
 .buttons {
@@ -157,7 +149,7 @@ img.facebook,
   justify-content: left;
   align-items: center;
   margin: 3rem 0rem;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 4s ease-in-out;
 }
 
 button.contact {
@@ -196,12 +188,25 @@ button.contact:hover::before {
   line-height: 32px;
   color: white;
   font-family: "work sans";
+  text-transform: uppercase;
+  padding: 0.3rem;
+  border-radius: 6px;
+  transition: all 0.3s ease 0s;
   margin: 0rem 1rem;
+}
+
+.buttons h3:hover {
+  background-color: #ef634D;
+  color: #ffffff;
+  font-size: 1rem;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
 }
 
 .right-content img {
   width: 100%;
   height: 100%;
+  animation: slideIn 1s ease-in-out;
 }
 
 .transparent-text {
@@ -360,7 +365,7 @@ button.contact:hover::before {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   margin: 6rem 0rem;
 }
 
@@ -560,18 +565,18 @@ button.view-all:hover::before {
 .box-content-info h2 {
   color: #333333;
   font-size: 2.5rem;
+  line-height: 40px;
   font-weight: bold;
   font-family: "work sans";
-  line-height: 40px;
   padding: 2rem 0rem;
 }
 
 .box-content-info p {
   color: rgba(51, 51, 51, 0.4392156863);
   font-size: 1rem;
+  line-height: 32px;
   font-weight: 300;
   font-family: "work sans";
-  line-height: 32px;
 }
 
 button.read-more {
@@ -588,7 +593,6 @@ button.read-more {
   z-index: 1;
   overflow: hidden;
 }
-
 button.read-more::before {
   content: "";
   width: 100%;
@@ -602,7 +606,6 @@ button.read-more::before {
   transform: translateX(-110%);
   transition: 0.4s all ease;
 }
-
 button.read-more:hover::before {
   transform: translateX(0%);
 }
@@ -686,16 +689,16 @@ button.read-more:hover::before {
 }
 
 .market h2 {
-  font-size: 1.5rem;
   font-weight: bold;
+  font-size: 1.5rem;
   line-height: 32px;
   font-family: "work sans";
   color: #333333;
 }
 
 .market p {
-  font-size: 1rem;
   font-weight: 300;
+  font-size: 1rem;
   line-height: 32px;
   font-family: "work sans";
   color: rgba(51, 51, 51, 0.4392156863);
@@ -791,10 +794,10 @@ button.explore:hover::before {
 
 .seven-right p {
   color: #333333;
-  line-height: 32px;
   font-weight: 300;
   font-family: "Work Sans";
   font-size: 1rem;
+  line-height: 32px;
   padding: 1rem 0rem;
 }
 
@@ -870,8 +873,8 @@ span img {
 }
 
 .card-title p {
-  font-size: 3.5rem;
   color: #333333;
+  font-size: 3.5rem;
   line-height: 64px;
   font-weight: bold;
   font-family: "Work Sans";
@@ -880,10 +883,10 @@ span img {
 
 .cd-content ul li {
   color: #333333;
-  line-height: 32px;
   font-weight: 300;
   font-family: "Work Sans";
   font-size: 1rem;
+  line-height: 32px;
 }
 
 .cd-content ul li i {
@@ -941,17 +944,17 @@ span img {
 
 .cd-2 h4 {
   color: #f49e44;
-  line-height: 32px;
   font-weight: bold;
   font-family: "Work Sans";
   font-size: 1.2rem;
+  line-height: 32px;
   text-align: right;
 }
 
 .card-title-2 p {
   font-size: 3.5rem;
-  color: #333333;
   line-height: 64px;
+  color: #333333;
   font-weight: bold;
   font-family: "Work Sans";
   padding: 1rem 0rem;
@@ -959,10 +962,10 @@ span img {
 
 .card-content-2 ul li {
   color: #333333;
-  line-height: 32px;
   font-weight: 300;
   font-family: "Work Sans";
   font-size: 1rem;
+  line-height: 32px;
 }
 
 .card-content-2 ul li i {

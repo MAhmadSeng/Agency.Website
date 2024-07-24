@@ -33,8 +33,7 @@
   
   .seven-right h2 {
     color: #333333;
-    font-size: 1rem;
-    line-height: 32px;
+  @include font-setting(1rem, 32px); 
     font-weight: $wait1;
     font-family: "Work Sans";
     padding: 0.5rem 0rem;
@@ -42,10 +41,9 @@
   
   .seven-right p {
     color: #333333;
-    line-height: 32px;
     font-weight: $wait;
     font-family: "Work Sans";
-    font-size: 1rem;
+    @include font-setting(1rem, 32px); 
     padding: 1rem 0rem;
   }
   

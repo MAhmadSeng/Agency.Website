@@ -19,7 +19,7 @@
  
   text-transform: uppercase;
   color: white;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 4s ease-in-out;
 }
 
 .left-content h1 {
@@ -29,7 +29,7 @@
   font-weight: $wait1;
  
   color: white;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 4s ease-in-out;
 }
 
 .buttons {
@@ -37,7 +37,7 @@
   justify-content: left;
   align-items: center;
   margin: 3rem 0rem;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 4s ease-in-out;
 }
 button.contact {
   font-size: 1.2rem;
@@ -55,15 +55,29 @@ button.contact {
 
 .buttons h3 {
   font-weight: $wait;
-  @include font-setting(1.2rem, 32px); 
+  @include font-setting(1.2rem, 32px);
   color: white;
   font-family: "work sans";
+  text-transform: uppercase;
+  padding: 0.3rem;
+  border-radius: 6px;
+  transition: all 0.3s ease 0s;
   margin: 0rem 1rem;
 }
+  .buttons h3:hover {
+    background-color: #ef634D;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+
 
 .right-content img {
   width: 100%;
   height: 100%;
+  animation: slideIn 1s ease-in-out;
 }
 
 .transparent-text {
