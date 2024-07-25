@@ -70,7 +70,9 @@ button.contact {
     transition: all 0.3s ease 0s;
 }
 
-
+.right-one{
+  z-index: 11;
+}
 
 .right-content img {
   width: 100%;
@@ -93,7 +95,7 @@ button.contact {
   color: #7d72dd;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: -9rem;
+  margin-top: -10rem;
 }
 
 
