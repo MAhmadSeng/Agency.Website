@@ -3223,7 +3223,13 @@ li.f-item {
     flex-direction: column;
   }
   .third-left h6 {
-    padding: 0;
+    padding: 3rem 0.3rem 0rem 0.3rem;
+  }
+  .third-left h3 {
+    padding: 0.3rem;
+  }
+  .third-left p {
+    padding: 0.3rem;
   }
   .bars {
     gap: 0rem;
