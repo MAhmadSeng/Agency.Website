@@ -208,14 +208,6 @@ button.contact:hover::after {
   margin: 0rem 1rem;
 }
 
-.buttons h3:hover {
-  background-color: #ef634D;
-  color: white;
-  border-radius: 50px;
-  font-size: 1rem;
-  transition: all 0.3s ease 0s;
-}
-
 .right-one {
   z-index: 11;
 }
@@ -1606,7 +1598,7 @@ li.f-item {
     padding: 7rem 5rem;
   }
   .transparent-text h1 {
-    margin-top: -12rem;
+    margin-top: -15rem;
   }
   .second-content {
     margin-top: -14rem;
