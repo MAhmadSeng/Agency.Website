@@ -1,24 +1,123 @@
 @media (max-width: $screen-m0) {
-  header {
-    justify-content: space-around;
-    padding: 1rem;
-    margin: 0;
-  }
+  // header {
+  //   justify-content: space-around;
+  //   padding: 1rem;
+  //   margin: 0;
+  // }
+  // .navbar {
+  //   gap: 22rem;
+  // }
+  // ul.nav-item,
+  // .social-icons {
+  //   display: none;
+  // }
+  // label.toggle {
+  //   display: block;
+  //   color: white;
+  //   background-color: rgba(255, 255, 255, 0.1411764706);
+  //   border-radius: 20px;
+  //   padding: 0.4rem 0.7rem;
+  //   font-size: 1rem;
+  // }
+
+
   .navbar {
-    gap: 22rem;
+    gap: 23rem;
   }
-  ul.nav-item,
+
+  .nav-item {
+    display: none;
+  }
+
+  label.toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    background: none;
+    border: none;
+  }
+
   .social-icons {
     display: none;
   }
-  label.toggle {
-    display: block;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.1411764706);
-    border-radius: 20px;
-    padding: 0.4rem 0.7rem;
-    font-size: 1rem;
-  }
+  
+  // .navbar {
+  //   position: relative;
+  //   padding: 1rem;
+  // }
+
+  // .nav-item,
+  // .social-icons {
+  //   display: none;
+  // }
+
+  // label.toggle {
+  //   display: block;
+  // }
+
+  // #toggle-checkbox {
+  //   display: none;
+  // }
+
+  // // Sidebar styles
+  // .nav-overlay {
+  //   display: none; // Hide by default
+  //   flex-direction: column;
+  //   width: 75%;
+  //   background-color: $bg-main1; // Background color for the sliding menu
+  //   padding: 1rem;
+  //   position: fixed;
+  //   top: 0;
+  //   left: 0;
+  //   height: 100vh; // Full height for the sliding effect
+  //   transform: translateX(-100%); // Start position off-screen
+  //   transition: transform 0.3s ease-in-out; // Slide-in animation
+  //   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  //   z-index: 100;
+  //   backdrop-filter: blur(5px); // Blur effect on the right side
+  // }
+
+  // #toggle-checkbox:checked ~ .nav-overlay {
+  //   display: flex;
+  //   transform: translateX(0); // Slide-in to visible
+  // }
+
+  // // Show close button when menu is visible
+  // #toggle-checkbox:checked ~ .nav-overlay .close-btn {
+  //   display: block;
+  // }
+
+  // .nav-overlay .nav-item,
+  // .nav-overlay .social-icons {
+  //   display: none; // Hide by default
+  // }
+
+  // // Show nav items or social icons based on the state
+  // #toggle-checkbox:checked ~ .nav-overlay .nav-item {
+  //         display: flex;
+  //         flex-direction: column;
+  //         align-items: center;
+  //         gap: 1rem;
+  //         padding-top: 4rem;
+
+  // }
+
+  // #toggle-checkbox:checked ~ .nav-overlay .social-icons {
+  //   display: flex;
+  //   justify-content: center;
+  // }
+
+  // .nav-overlay .nav-item {
+  //   color: white;
+  //   margin-top: 1rem;
+  // }
+
+  // .nav-overlay .social-icons {
+  //   margin-top: 1rem;
+  // }
+
+
 
   .hero-content {
     flex-direction: column;

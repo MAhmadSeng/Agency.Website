@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "compile":"sass --watch scss/styles.scss css/style.css"
+    "start": "nodemon index.js",
+    "compile": "sass --watch scss/styles.scss css/style.css"
   },
   "author": "ahmad",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "multer": "^1.4.5-lts.1",
     "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }

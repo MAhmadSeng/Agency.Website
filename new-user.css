@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0rem 1rem;
+    background-color: #020421;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 4rem;
+    background-color: #1d243f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+div#formSection {
+    margin: 0px 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.paginationn {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6c757d;
+    margin-right: 10px;
+}
+
+button {
+    margin: 10px 0px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6c757d;
+    margin-right: 10px;
+}
+
+input[type="file"] {
+    border: none;
+    padding: 0;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #6c757d;
+}
+
+input#input-search {
+    width: 20%;
+    color: #000000;
+}
+
+.user-table-section {
+    display: none;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid #515151;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.imgg {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    object-fit: cover;
+    transition: transform 0.3s ease, z-index 0s ease;
+}
+
+.imgg:hover {
+    transform: scale(2);
+    z-index: 10;
+    position: relative; 
+    left: 0; 
+    top: 0; 
+    transform: scale(1.5); 
+}
+div#paginationSection {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+@media (max-width: 320px) {
+input#input-search {
+    width: 50%;
+    color: #000000;
+}
+.table-wrapper {
+    overflow-x: auto;
+}
+}

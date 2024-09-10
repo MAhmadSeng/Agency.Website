@@ -4,38 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agency-Website</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./scss/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
     <header>
       <nav class="navbar">
         <a href="#" class="logo">Agency</a>
-        <label for="toggle" class="toggle">&#9776;</label>
+        <label for="toggle" id="toggle" class="toggle">&#9776;</label>
         <ul class="nav-item">
           <li class="links">About</li>
           <li class="links">Service</li>
           <li class="links">Projects</li>
           <li class="links">Blog</li>
           <li class="links">Contact</li>
+          <li class="links"><a href="new-user.html" id="user-new">AddUser</a></li>
         </ul>
         <div class="social-icons">
-          <div class="icons">
-            <img src="./images/facebook.png" alt="facebook" class="facebook" />
-            <img src="./images/twitter.png" alt="twitter" class="twitter" />
-            <img
-              src="./images/instagram.png"
-              alt="instagram"
-              class="instagram"
-            />
-          </div>
+          <img src="./images/facebook.png" alt="facebook" class="facebook" />
+          <img src="./images/twitter.png" alt="twitter" class="twitter" />
+          <img src="./images/instagram.png" alt="instagram" class="instagram" />
         </div>
       </nav>
+      <div class="overlay" id="overlay" id="body-noscroll"></div>
+      <div class="sidebar" id="sidebar">
+        <ul class="nav-item">
+          <li class="links">About</li>
+          <li class="links">Service</li>
+          <li class="links">Projects</li>
+          <li class="links">Blog</li>
+          <li class="links">Contact</li>
+          <li class="links"><a href="new-user.html" id="user-new">AddUser</a></li>
+        </ul>
+        <div class="social-icons">
+          <img src="./images/facebook.png" alt="facebook" class="facebook" />
+          <img src="./images/twitter.png" alt="twitter" class="twitter" />
+          <img src="./images/instagram.png" alt="instagram" class="instagram" />
+        </div>
+      </div>
     </header>
 
     <div class="main-container">
@@ -63,9 +73,7 @@
       </div>
     </section>
     
-
-      <section class="second-section">
-        
+      <section class="second-section">   
         <div class="second-content">
           <div class="left-two">
             <img src="./images/main2.png" alt="Agency-images" />
@@ -110,8 +118,6 @@
           </div>
         </div>
       </section>
-
-      
 
       <section class="third-section">
         <div class="third-content">
@@ -166,33 +172,56 @@
             </div>
           </div>
 
-          <div class="boxes">
-            <div class="fifth-box">
-              <!-- <img src="./images/Combined Shape (2).png" class="overlap-5" alt="Agency-images"> -->
-              <div class="box-content">
-                <img src="./images/img4.png" alt="Agency-images" />
+          <div class="carousel-container">
+            <div class="carousel">
+              <div class="carousel-item">
+                <div class="fifth-box">
+                  <div class="box-content">
+                    <img src="./images/img4.png" alt="Agency-images" />
+                  </div>
+                  <div class="box-content-info">
+                    <h3>Branding</h3>
+                    <h2>Financial Service</h2>
+                    <p>
+                      What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction. When it came near enough he perceived.
+                    </p>
+                    <button class="read-more">Read more</button>
+                  </div>
+                </div>
               </div>
-              <div class="box-content-info">
-                <h3>Branding</h3>
-                <h2>Financial Service</h2>
-
-                <p>
-                  What looked like a small patch of purple grass, above five
-                  feet square, was moving across the sand in their direction.
-                  When it came near enough he perceived.
-                </p>
-
-                <button class="read-more">Read more</button>
+              <div class="carousel-item">
+                <div class="fifth-box">
+                  <div class="box-content">
+                    <img src="./images/img5.png" alt="Agency-images" />
+                  </div>
+                  <div class="box-content-info">
+                    <h3>Social</h3>
+                    <h2>Social Service</h2>
+                    <p>
+                      What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction. When it came near enough he perceived.
+                    </p>
+                    <button class="read-more">Read more</button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="fifth-box">
+                  <div class="box-content">
+                    <img src="./images/img4.png" alt="Agency-images" />
+                  </div>
+                  <div class="box-content-info">
+                    <h3>Marketing</h3>
+                    <h2>Marketing Service</h2>
+                    <p>
+                      What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction. When it came near enough he perceived.
+                    </p>
+                    <button class="read-more">Read more</button>
+                  </div>
+                </div>
               </div>
             </div>
-
-            <div class="box-content-right1">
-              <img src="./images/img5.png" alt="Agency-images" />
-            </div>
-
-            <div class="box-content-right2">
-              <img src="./images/img6.png" alt="Agency-images" />
-            </div>
+            <button class="carousel-button prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="carousel-button next"><i class="fa-solid fa-arrow-right"></i></button>
           </div>
         </div>
       </section>
@@ -343,7 +372,6 @@
         </div>
       </section>
 
-
       <section class="c-section">
         <div class="card-content">
           <h3>Pricing</h3>
@@ -409,7 +437,6 @@
       </div>
       </section>
 
-
       <section class="Contact-section">
         <div class="contact-content">
           <div class="contact-left">
@@ -440,7 +467,6 @@
       </div>
   </section>
 
-  
   <footer class="footer">
     <div class="footer-content">
         <div class="f-one">
@@ -486,6 +512,7 @@
     </div>
 </footer>
 
-  
-  </body>
+  <script src="./toggle.js"></script>
+  <script src="./carousel.js"></script>
+</body>
 </html>

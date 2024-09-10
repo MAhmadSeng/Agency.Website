@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "firstName": "Risa",
+    "lastName": "Romero",
+    "email": "wyguteqyz@mailinator.com",
+    "password": "$2a$10$WgqCJrp3BMxCgf2nyCVrB./KrVz5W0CsZA2N3V3bqIGeRossHtzqS",
+    "chooseFile": "1725946375153-user2.png",
+    "createdAt": "2024-09-10T05:32:55.505Z",
+    "updatedAt": "2024-09-10T06:21:21.553Z"
+  },
+  {
+    "id": 2,
+    "firstName": "Ahmed",
+    "lastName": "Santos",
+    "email": "wujekyba@mailinator.com",
+    "password": "$2a$10$ooLZHEN8KwDCQFQvuZ5C9uDq38qlJogB7FJ1ZJooAUn.YprkKZSP.",
+    "chooseFile": "1725946912681-user2.png",
+    "createdAt": "2024-09-10T05:41:53.051Z",
+    "updatedAt": "2024-09-10T05:42:29.651Z"
+  }
+]
